@@ -1,0 +1,103 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+        <title>Lil Aladin > Projects</title>
+        <meta property="og:title" content="Lil Aladin > Projects">
+        <meta property="og:locale" content="en_EU">
+        <meta property="og:description" content="Lil Aladin's projects trashcan">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../assets/favico/eblan.png" type="image/png">
+		<script src="https://sindresorhus.com/devtools-detect/index.js"></script>
+		<link rel="stylesheet" href="../assets/fonts/gsans/style.css">
+		<link rel="stylesheet" href="../assets/vars.css">
+        <meta name="theme-color" content="#C21CC7">
+		<link rel="stylesheet" href="../assets/css/projects/style.css">
+	</head>
+	<body class="center">
+        <script>
+            function is_shit() {
+                if (/MSIE/i.test(navigator.userAgent)) return true
+                if (/firefox/i.test(navigator.userAgent)) return true
+                if (/Trident/i.test(navigator.userAgent)) return true
+                if (/Edge/i.test(navigator.userAgent)) return true
+                return false
+            }
+            if (is_shit()) {
+                document.body.style.backgroundImage = "url('../assets/anims/aye.gif')";
+            }
+        </script>
+        <div id="quotesapibot">
+            <div class="popup">
+                <h1>ScriptManBot</h1>
+                <p align="center">                    
+                    <p align=center>
+						<b>ScriptManBot</b> - Бот созданный для раздачи скриптов для разных андроид игр которые хотите взломать через <b>Game Guardian.</b>
+						<br>
+						<br>
+						Полезный бот для настоящего хацкера который любит взламывать игры на андроид через <b>Game Guardian.</b>
+					</p>
+                    <p align="center">
+						<input class="btn" type="button" value="Перейти" title="Перейти" onclick="location.href='http://t.me/Scriptmanbot'">
+						<input class="btn" type="button" value="Закрыть" title="Закрыть" onclick="document.getElementById('quotesapibot').style.display='none';">
+					</p>
+                </p>
+            </div>
+		</div>
+		<div id="rsapi">
+            <div class="popup">
+                <h1>CfgManBot</h1>
+                <p align="center">                    
+                    <p align=center>
+						<b>CfgManBot</b> - Бот созданный для раздачи <b>Cfg</b> и читов для <b>CS:GO.</b>
+						<br>
+						<br>
+						Полезный бот для читера который играет сутками в <b>CS:GO.</b> 
+					</p>
+                    <p align="center">
+						<input class="btn" type="button" value="Перейти" title="Перейти" onclick="location.href='http://t.me/CfgManBot'">
+						<input class="btn" type="button" value="Закрыть" title="Закрыть" onclick="document.getElementById('rsapi').style.display='none';">
+					</p>
+                </p>
+            </div>
+		</div>
+		<div id="rspay">
+            <div class="popup">
+                <h1>StickerPak</h1>
+                <p align="center">                    
+                    <p align=center>
+						<b>StickerPak</b> - А это мой канал на котором я создаю разные наркоманские анимированные стикеры🤪
+						<br>
+						<br>
+						Если хотите поддержать меня и мой проект то подпишитесь пожалуйста на этот канал я буду очень рад каждому подписчику❤️
+					</p>
+                    <p align="center">
+						<input class="btn" type="button" value="Перейти" title="Перейти" onclick="location.href='http://t.me/Stickerpak'">
+						<input class="btn" type="button" value="Закрыть" title="Закрыть" onclick="document.getElementById('rspay').style.display='none';">
+					</p>
+                </p>
+            </div>
+        </div>
+        <audio autoplay loop id="player">
+            <source src="../assets/sounds/golosovanie.mp3">
+            <script>
+                document.currentScript.parentElement.volume = 0.50;
+            </script>
+        </audio>
+		<div class="center menu">
+            <h2>Projects</h2>
+			<a href="javascript:/" onclick="document.getElementById('quotesapibot').style.display='block'">ScriptManBot</a>
+			<a href="javascript:/" onclick="document.getElementById('rsapi').style.display='block'">CfgManBot</a>
+			<a href="javascript:/" onclick="document.getElementById('rspay').style.display='block'">StickerPak</a>
+            <hr width="295">
+            <a href="..">Назад</a>
+		</div>
+    </body>
+    <script>
+		// ОНО НЕ РАБОТАЕТ СПАСИБО ЖС СПАСИБО ИДИ НАХУЙ
+        console.log('Пасхалка не работает идите нахуй')
+        if (getComputedStyle(document.body).getPropertyValue('--has-pasxalka-work') == "true") {
+            if(window.devtools.isOpen) { window.location.href = getComputedStyle(document.body).getPropertyValue('--pasxalka'); }
+            window.addEventListener('devtoolschange', event => { window.location.href = getComputedStyle(document.body).getPropertyValue('--pasxalka'); });
+        }
+    </script>
+</html>
