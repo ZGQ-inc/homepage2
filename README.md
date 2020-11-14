@@ -1,4 +1,4 @@
-# HTML Blur Modern Sex Template by Lil Aladin
+# Ayf Site by Lil Aladin
 
 # Совместимость
 Таблица ниже говорит о совместимости темплейта с браузерами <span style="color:red">**(НЕ ВКЛЮЧАЯ ОБНОВЛЕНИЙ ДЛЯ ИСПРАВЛЕНИЯ ПОДДЕРЖКИ)**</span>
